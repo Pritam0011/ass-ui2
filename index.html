@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <section class="main-con">
+    <div class="option">
+      <p>Sort By:</p>
+
+        <select class="table-filter" id="table-filter">
+          <option value="blank"></option>
+          <option value="Name" id="name">Name</option>
+          <option value="Date-Time">Date-Time</option>
+        </select>
+
+    </div>
+
+        <div class="outer-wrapper">
+        <div class="table-wrapper">
+        <table id="emp-table">
+            <thead>
+                <th col-index = 1>Name
+                </th>
+                <th col-index = 2>Date Of Birth</th>
+                <th col-index = 3>Country</th>
+                <th col-index = 4>Time
+                </th>
+                <th col-index = 5 >Details</th>
+                <th col-index = 6 >Delete</th>
+                
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>  
+        
+        
+    </section>
+    <div class="ale"><b>okay alert</b></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
